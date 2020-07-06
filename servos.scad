@@ -4,7 +4,7 @@
  * @param vector position The position vector
  * @param vector rotation The rotation vector
  */
-module servo_futabas3003(position, rotation, screw_radius=0, screw_depth=10) {
+module servo_futabas3003(position, rotation, screw_diameter=0, screw_depth=10) {
 /*	futabas3003=[
 		['main',[
 			["xx",123]
